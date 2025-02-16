@@ -1,0 +1,18 @@
+First Come First Serve Algorithm 
+----------------------------------------------------
+
+First come – First served (FCFS), is the simplest scheduling algorithm. FIFO simply queues processes according to the order they arrive in the ready queue. In this algorithm, the process that comes first will be executed first and next process starts only after the previous gets fully executed. 
+
+-------------------------------------------------------
+
+Terminologies Used in CPU Scheduling :
+
+1) Arrival Time: The time at which the process arrives in the ready queue.
+2) Completion Time: The time at which the process completes its execution.
+3) Turn Around Time: Time Difference between completion time and arrival time. Turn 
+4) Around Time = (Completion Time – Arrival Time)
+5) Waiting Time (W. T): Time Difference between turnaround time and burst time. CPU 
+
+***Burst time is the overall CPU time a process needs.
+
+***Waiting Time = (Turn Around Time – Burst Time).
